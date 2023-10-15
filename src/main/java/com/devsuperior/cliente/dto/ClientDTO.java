@@ -1,15 +1,25 @@
 package com.devsuperior.cliente.dto;
 
 import com.devsuperior.cliente.entities.Client;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.PastOrPresent;
+import jakarta.validation.constraints.Positive;
+import jakarta.validation.constraints.Size;
 
 import java.time.LocalDate;
 
 public class ClientDTO {
 
     private Long id;
+
+    @NotBlank(message = "Campo requerido")
     private String name;
+
+    @Size(min = 11, max = 11, message = "CPF deve ter 11 números")
+    @NotBlank(message = "Campo requerido")
     private String cpf;
     private Double income;
+    @PastOrPresent(message = "A data de nascimento não pode ser uma data futura")
     private LocalDate birthDate;
     private Integer children;
 
