@@ -1,10 +1,15 @@
 # CRUD_de_clientes
 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/henriquecesarjr/DSCommerce/blob/main/LICENSE)
+[![NPM](https://github.com/henriquecesarjr/CRUD_de_clientes/blob/main/LICENSE)
 
 # Sobre o projeto
 
-Projeto usando Spring Boot contendo um CRUD completo de web services REST para acessar um recurso de clientes.
+Projeto usando Spring Boot contendo um CRUD completo de web services REST para acessar um recurso de clientes contendo as cinco operações básicas.
+- Busca de cliente por id
+- Busca paginada de clientes
+- Inserir novo cliente
+- Atualizar cliente
+- Deletar cliente
 
 ## Modelo conceitual
 ![Modelo Conceitual](https://github.com/henriquecesarjr/DSCommerce/blob/main/assets/modelo%20conceitual.png)
