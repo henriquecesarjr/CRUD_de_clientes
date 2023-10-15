@@ -12,7 +12,7 @@ Projeto usando Spring Boot contendo um CRUD completo de web services REST para a
 - Deletar cliente
 
 ## Modelo conceitual
-![Modelo Conceitual](https://github.com/henriquecesarjr/DSCommerce/blob/main/assets/modelo%20conceitual.png)
+![Modelo Conceitual](https://github.com/henriquecesarjr/CRUD_de_clientes/blob/main/assets/Modelo%20conceitual.png)
 
 # Tecnologias utilizadas
 - Java
