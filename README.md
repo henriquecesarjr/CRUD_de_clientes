@@ -1,6 +1,6 @@
 # CRUD_de_clientes
 
-[![NPM](https://github.com/henriquecesarjr/CRUD_de_clientes/blob/main/LICENSE)
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/henriquecesarjr/CRUD_de_clientes/blob/main/LICENSE)
 
 # Sobre o projeto
 
