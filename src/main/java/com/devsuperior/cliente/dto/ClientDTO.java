@@ -1,15 +1,11 @@
-package com.devsuperior.cliente.entities;
+package com.devsuperior.cliente.dto;
 
-import jakarta.persistence.*;
+import com.devsuperior.cliente.entities.Client;
 
 import java.time.LocalDate;
 
-@Entity
-@Table(name = "tb_client")
-public class Client {
+public class ClientDTO {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private String cpf;
@@ -17,10 +13,10 @@ public class Client {
     private LocalDate birthDate;
     private Integer children;
 
-    public Client() {
+    public ClientDTO() {
     }
 
-    public Client(Long id, String name, String cpf, Double income, LocalDate birthDate, Integer children) {
+    public ClientDTO(Long id, String name, String cpf, Double income, LocalDate birthDate, Integer children) {
         this.id = id;
         this.name = name;
         this.cpf = cpf;
