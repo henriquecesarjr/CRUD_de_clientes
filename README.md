@@ -4,7 +4,7 @@
 
 # Sobre o projeto
 
-Projeto usando Spring Boot contendo um CRUD completo de web services REST para acessar um recurso de clientes contendo as cinco operações básicas.
+Projeto usando Spring Boot contendo um CRUD completo de web services REST para acessar um recurso de clientes, contendo as cinco operações básicas.
 - Busca de cliente por id
 - Busca paginada de clientes
 - Inserir novo cliente
