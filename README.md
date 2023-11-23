@@ -11,8 +11,18 @@ Projeto usando Spring Boot contendo um CRUD completo de web services REST para a
 - Atualizar cliente
 - Deletar cliente
 
-## Modelo conceitual
+## Classe Client
 ![Modelo Conceitual](https://github.com/henriquecesarjr/CRUD_de_clientes/blob/main/assets/Modelo%20conceitual.png)
+
+## Mais sobre o projeto
+
+As seguintes exceções foram tratadas:
+- Id não encontrado (para GET por id, PUT e DELETE), retornando código 404.
+- Erro de validação, retornando código 422 e mensagens customizadas para cada campo inválido.
+
+  As regras de validação são:
+  - Nome: não pode ser vazio
+  - Data de nascimento: não pode ser data futura
 
 # Tecnologias utilizadas
 - Java
