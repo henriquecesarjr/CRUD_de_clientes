@@ -27,7 +27,6 @@ As seguintes exceções foram tratadas:
 # Tecnologias utilizadas
 - Java
 - Spring Boot
-- Spring WEB
 - JPA / Hibernate
 - H2 Database
 - Maven
